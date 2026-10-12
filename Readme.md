@@ -133,8 +133,7 @@ poly-dataset_factory/
 │   ├── knowledge.py             # 知识库管理
 │   └── response.py              # 响应格式
 ├── test_data/                   # 测试文件
-├── .env                         # 环境变量（不提交）
-├── .env.bak                     # 环境变量备份
+├── .env                         # 环境变量
 └── requirements.txt             # 依赖列表
 ```
 
@@ -164,13 +163,7 @@ poly-dataset_factory/
 
 ## TODO
 
-- [ ] PDF 文档支持
-- [ ] 音频文件支持
-- [ ] 批量处理
-- [ ] 导出为 CSV/Excel 格式
+- [ ] PDF 文档支持(PDF 识别 + 识别内容读取)
+- [ ] 数据集结果能够被导出为 CSV/Excel 格式
 
 ---
-
-## License
-
-MIT
