@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+project_venv/
+venv/
+
+# 环境变量
+.env
+.env.bak
+".env .bak"
+
+# 测试数据（大文件）
+test_data/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 日志
+*.log
